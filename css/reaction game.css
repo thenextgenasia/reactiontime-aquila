@@ -2,7 +2,11 @@
 
 @font-face {
     font-family: Azonix;
-    src: url("css/Azonix.ttf") format("truetype");
+    src: url('azonix-webfont.woff2') format('woff2'),
+         url('azonix-webfont.woff') format('woff'),
+        url(azonix.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 #heado{
     font-family: 'Azonix';
