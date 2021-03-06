@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Application to test your reaction time">
+    <meta name="keywords" content="reaction game, game, javascript game,aquila, the next generation, f1 in schoools">
+    <meta name="author" content="Vansh Bordia">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/reaction game.css">
+
+    <title>Reaction Time</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1 style="font-family: Azonix; letter-spacing: 20px;">Team Aquila </h1>
+    </div>  
+    <div class="container">
+          <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <strong>Score:</strong><span id="pervious-score-para"></span>
+          </div>
+
+          <br>
+          <p id="p-1">Test your reaction time.</p>
+          <center>
+            <button class="btn btn-outline-dark btn-lg btn-block" id="start" style="width: 20%;">Start</button>
+            <button class="btn btn-outline-dark btn-lg btn-block" id="play-again">Play again!</button>
+          </center>
+          <br>
+
+          <div id="warning" class="alert alert-warning" role="alert">
+            <center><strong>Note:</strong> After clicking the start button a red box will appear, wait for turning the box to green. Then tap anywhere on box. </center>
+            
+          </div>
+
+          <div id="box">
+            <p id="info-para"></p>
+        </div>
+
+        <div id="green-box">
+          <p id="result-para"></p>
+        </div>
+
+
+        
+        </div>
+        <footer>
+          &#169; 2021 Aquila, The Next Generation
+        </footer>
+        
+       
+
+
+
+
+    <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/reaction game.js"></script>
+  </body>
+</html>

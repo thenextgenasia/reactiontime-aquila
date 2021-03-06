@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+@font-face {
+    font-family: Azonix;
+    src: url("css/Azonix.otf") format("opentype");
+}
+#heado{
+    font-family: 'Azonix';
+    font-kerning: 300px;
+}
+body{
+    font-family: 'Lato';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    user-select: none;
+}
+
+.alert-success{
+    display: none;
+    text-align: center;
+}
+
+#p-1{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#box{
+    background-color: red;
+    width: 100%;
+    height: 300px;
+    display: none;
+    cursor: pointer;
+}
+
+#green-box{
+    background-color: rgb(10, 228, 10);
+    width: 100%;
+    height: 300px;
+    display: none;
+    cursor: pointer;
+}
+
+#box p{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    padding-top: 120px;
+}
+
+#green-box p{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    padding-top:120px ;
+}
+
+#play-again{
+    display: none;
+}
+
+footer{
+    background-color: #151515;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+}
+
+footer a{
+    color: #fff;
+}
+footer a:hover{
+    color: rgb(40, 255, 40);
+}
+.fa-heart{
+    color: red;
+}
+
+.header {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    background: #000000;
+    color: white;
+    font-size: 20px;
+  }
